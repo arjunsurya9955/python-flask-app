@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: arjunsurya27/static-website:latest
+        image: arjunsurya27/static-website:8
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
